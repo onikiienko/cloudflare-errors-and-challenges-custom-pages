@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare-errors-and-challenges-custom-pages",
+  "version": "1.0.0",
+  "description": "Cloudflare uses a wide range of error codes to identify issues in handling request traffic. By default, these error pages mention Cloudflare; however, custom error pages help us provide a consistent brand experience for our users.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Onikiienko Bogdan (onikiienko@macpaw.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
