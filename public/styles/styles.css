@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+
+.svg-logo {
+    background-image: url('../images/Setapp-Full-Color-Light-Stacked-Logo.svg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+
+  .png-logo {
+    background-image: url('../images/Setapp-Full-Color-Light-Stacked-Logo.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
