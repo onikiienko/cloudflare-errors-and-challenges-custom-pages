@@ -1,17 +1,69 @@
-h1 {
-    color: red;
+* {
+  font-family: FixelDisplay, sans-serif;
 }
 
-.svg-logo {
-    background-image: url('../images/Setapp-Full-Color-Light-Stacked-Logo.svg');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-  }
+body {
+  background: #c4daf6;
+}
 
-  .png-logo {
-    background-image: url('../images/Setapp-Full-Color-Light-Stacked-Logo.png');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-  }
+.logo {
+  width: 211px;
+  height: 37px;
+  background-image: url("../images/logo.svg");
+  background-size: cover;
+  margin-bottom: 32px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 740px;
+  padding-top: 144px;
+  padding-bottom: 86px;
+}
+
+.caption {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 110%;
+  color: var(--dark-green-text, #133634);
+  letter-spacing: -1.12px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--dark-green-text, #133634);
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 160%;
+  color: var(--dark-green-text, #133634);
+  margin-bottom: 32px;
+}
+
+ul {
+  margin: 0;
+  margin-bottom: 32px;
+  padding-inline-start: 18px;
+}
+
+li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  padding-left: 22px;
+  color: var(--dark-green-text, #133634);
+}
+
+li:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+li::marker {
+  content: url("../images/bullet.svg");
+}
