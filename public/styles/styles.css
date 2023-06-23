@@ -23,11 +23,13 @@ body {
 }
 
 .caption {
+  display: block;
   font-size: 56px;
   font-weight: 500;
   line-height: 110%;
   color: var(--dark-green-text, #133634);
   letter-spacing: -1.12px;
+  margin-bottom: 16px;
 }
 
 h1 {
